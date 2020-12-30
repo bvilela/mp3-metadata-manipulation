@@ -32,7 +32,6 @@ public abstract class FileUtils {
 	        ParseContext parseCtx = new ParseContext();
 	        parser.parse(input, handler, metadata, parseCtx);
 	        
-	        // List all metadata
 	        return metadata;
 	        
 		} catch (IOException | SAXException | TikaException e) {
